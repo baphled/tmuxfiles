@@ -1,0 +1,6 @@
+[submodule "powerline"]
+	path = powerline
+	url = git://github.com/baphled/tmux-powerline.git
+[submodule "colors-solarized"]
+	path = colors-solarized
+	url = git://github.com/seebi/tmux-colors-solarized.git
