@@ -27,10 +27,9 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 		"hostname 89 211" \
 		"whoami 245 238" \
 		"mailcount 126 255" \
-		"date 235 136" \
-		#"utc_time 235 136" \
-		#"time 235 136" \
 		"battery 137 127" \
+		"utc_time 235 136" \
+		"date 235 136" \
 		"lan_ip 24 255" \
 		"wan_ip 24 255" \
 		"vcs_branch 29 88" \
