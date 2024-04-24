@@ -92,8 +92,8 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		"tmux_session_info ${thm_blue} ${thm_black}" \
 		"hostname ${thm_black4} ${thm_blue} ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
-		"lan_ip ${thm_gray} ${thm_magenta}" \
-		"wan_ip ${thm_black4} ${thm_magenta}" \
+    "lan_ip ${thm_gray} ${thm_white}" \
+		"wan_ip ${thm_gray} ${thm_white} ${TMUX_POWERLINE_SEPARATOR_RIGHT}" \
 	)
 fi
 
