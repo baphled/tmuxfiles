@@ -92,17 +92,12 @@ if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		"tmux_session_info ${thm_blue} ${thm_black}" \
 		"hostname ${thm_black4} ${thm_blue} ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
-    "lan_ip ${thm_gray} ${thm_white}" \
-		"wan_ip ${thm_gray} ${thm_white} ${TMUX_POWERLINE_SEPARATOR_RIGHT}" \
 	)
 fi
 
 if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
-    "pwd ${thm_blue} ${thm_gray}" \
-    "weather ${thm_blue} ${thm_gray} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-    "date_day ${thm_blue} ${thm_gray} ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-    "time ${thm_gray} ${thm_fg} ${TMUX_POWERLINE_SEPARATOR_LEFT}" \
-    "date ${thm_gray} ${thm_fg} ${TMUX_POWERLINE_SEPARATOR_LEFT}" \
+    "pwd ${thm_black4} ${thm_blue}" \
+    "weather ${thm_blue} ${thm_black} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
 	)
 fi
