@@ -91,13 +91,14 @@ fi
 if [ -z $TMUX_POWERLINE_LEFT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_LEFT_STATUS_SEGMENTS=(
 		"tmux_session_info ${thm_blue} ${thm_black}" \
-		"hostname ${thm_black4} ${thm_blue} ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
+		"hostname ${thm_black} ${thm_blue} ${TMUX_POWERLINE_SEPARATOR_RIGHT_BOLD}" \
 	)
 fi
 
 if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
-    "pwd ${thm_black4} ${thm_blue}" \
+    "battery ${thm_black} ${thm_white} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
     "weather ${thm_blue} ${thm_black} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
+    "pwd ${thm_black4} ${thm_blue}" \
 	)
 fi
