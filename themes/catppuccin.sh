@@ -99,6 +99,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 	TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS=(
     "battery ${thm_black} ${thm_white} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
     "weather ${thm_blue} ${thm_black} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
+    "time ${thm_magenta} ${thm_black} ${TMUX_POWERLINE_SEPARATOR_LEFT_BOLD}" \
     "pwd ${thm_black4} ${thm_blue}" \
 	)
 fi
